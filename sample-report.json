@@ -1,0 +1,29 @@
+{
+  "tool": "bsc-unlimited-approval-finder",
+  "version": "1.0.0",
+  "chain": "BSC (56)",
+  "wallet": "0x012b925dceac12aacdec87a73445dae4b07735fd",
+  "scannedAtBlock": 133634680,
+  "scannedAt": "2026-11-14T23:50:48.325Z",
+  "coverage": {
+    "tokensChecked": 10,
+    "tokensSkipped": [],
+    "spendersChecked": 4,
+    "spendersSkipped": [
+      "0x Exchange Proxy (no code on chain)"
+    ],
+    "pairsChecked": 40,
+    "eventLookupFromBlock": 131042680,
+    "note": "Live allowance() scan over a curated token x spender set. Approvals to tokens or spenders outside this set are not covered; see README limitations."
+  },
+  "summary": {
+    "unlimitedApprovals": 0,
+    "priced": 0,
+    "unpriced": 0,
+    "totalExposureUsd": 0,
+    "totalExposureUsdNote": "priced findings only; unpriced findings add unknown USD on top",
+    "limitedApprovalsSeen": 0
+  },
+  "findings": [],
+  "limitedApprovals": []
+}
